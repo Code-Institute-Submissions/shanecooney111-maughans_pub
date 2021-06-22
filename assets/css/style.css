@@ -45,7 +45,7 @@ li {
 #menu {
     float: right;
     list-style: none;
-    font-size: 110%;
+    font-size: 130%;
 }
 
 #menu, #logo {
@@ -58,4 +58,19 @@ li {
     margin-right: 30px;
     margin-top: 20px;
     margin-right: 30px;
+}
+
+#menu li a:link,
+#menu li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+#menu li a:hover,
+#menu li a:active {
+    border-bottom: 2px solid #000000
 }
