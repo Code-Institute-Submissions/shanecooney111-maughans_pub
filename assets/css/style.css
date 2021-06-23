@@ -85,6 +85,7 @@ header {
 
 .who-are-we {
     padding: 60px 0;
+    background-color: cadetblue;
 }
 #placeholder {
     width: 100%;
@@ -104,6 +105,7 @@ header {
 .heading-grid {
     grid-area: heading;
     margin: auto;
+    text-align: center;
 }
 
 .grid1 {
@@ -123,6 +125,7 @@ header {
 
 .what-we-do {
     padding: 60px 0;
+    background-color: slategray;
 }
 
 #placeholder {
@@ -135,6 +138,7 @@ header {
 .heading-grid {
     grid-area: heading;
     margin: auto;
+    text-align: center;
 }
 
 .text-grid1 {
@@ -156,4 +160,45 @@ header {
     ". img . text1 ."
     ". img . text2 ."
     ". img . . .";
+}
+
+/* THIRD SECTION */
+
+.live-sports {
+    padding: 60px 0;
+    background-color: darkgreen;
+}
+
+#placeholder {
+    width: 100%;
+    height: auto;
+    grid-area: img;
+    background-position: center center;
+}
+
+.text-grid1 {
+    grid-area: text1;
+}
+
+.text-grid2 {
+    grid-area: text2;
+}
+
+.heading-grid {
+    grid-area: heading;
+    margin: auto;
+    text-align: center;
+}
+
+.grid1 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 5% 44% 2% 44% 5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    ". heading . img ."
+    ". . . img ."
+    ". text1 . img ."
+    ". text2 . img ."
+    ". . . img .";
 }
