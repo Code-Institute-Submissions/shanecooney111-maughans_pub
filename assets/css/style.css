@@ -83,20 +83,77 @@ header {
 
 /* FIRST SECTION */
 
+.who-are-we {
+    padding: 60px 0;
+}
 #placeholder {
     width: 100%;
     height: auto;
-    grid-area: placeholder;
+    grid-area: img;
+    background-position: center center;
 }
 
-#text {
-    grid-area: text;
+.text-grid1 {
+    grid-area: text1;
 }
 
-.grid {
+.text-grid2 {
+    grid-area: text2;
+}
+
+.heading-grid {
+    grid-area: heading;
+    margin: auto;
+}
+
+.grid1 {
     display: grid;
     height: 100vh;
     grid-template-columns: 5% 44% 2% 44% 5%;
-    grid-template-rows: auto;
-    grid-template-areas: ". text . placeholder .";
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    ". heading . img ."
+    ". . . img ."
+    ". text1 . img ."
+    ". text2 . img ."
+    ". . . img .";
+}
+
+/* SECOND SECTION */
+
+.what-we-do {
+    padding: 60px 0;
+}
+
+#placeholder {
+    width: 100%;
+    height: auto;
+    grid-area: img;
+    background-position: center center;
+}
+
+.heading-grid {
+    grid-area: heading;
+    margin: auto;
+}
+
+.text-grid1 {
+    grid-area: text1;
+}
+
+.text-grid2 {
+    grid-area: text2;
+}
+
+.grid2 {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 5% 44% 2% 44% 5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    ". img . heading ."
+    ". img . . ."
+    ". img . text1 ."
+    ". img . text2 ."
+    ". img . . .";
 }
