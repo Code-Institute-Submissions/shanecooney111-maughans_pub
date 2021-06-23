@@ -23,6 +23,7 @@ li {
     text-decoration: none;
 }
 
+
 /* HEADER SECTION */
 
 header {
@@ -78,4 +79,24 @@ header {
 #menu li a:hover,
 #menu li a:active {
     border-bottom: 2px solid #000000
+}
+
+/* FIRST SECTION */
+
+#placeholder {
+    width: 100%;
+    height: auto;
+    grid-area: placeholder;
+}
+
+#text {
+    grid-area: text;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 5% 44% 2% 44% 5%;
+    grid-template-rows: auto;
+    grid-template-areas: ". text . placeholder .";
 }
