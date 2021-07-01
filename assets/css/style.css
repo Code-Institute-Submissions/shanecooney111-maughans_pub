@@ -217,22 +217,53 @@ header {
 
 /* FOOTER SECTION */
 
-footer {
-    height: 100vh;
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
 
 .footer-grid {
+    height: 100vh;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "map"
+    "address" 
+    "hours"
+    "social-links";
     align-items: center;
+    padding: 2% 2%;
+}
+
+#address {
+    grid-area: address;
+    margin: 0 auto;
     text-align: center;
 }
 
-/* YARD PAGE */
+#map {
+    grid-area: map;
+    margin: 0 auto;
+}
+
+#hours {
+    grid-area: hours;
+    margin: 0 auto;
+}
+
+#social-links {
+    grid-area: social-links;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+         "address map hours"
+         "address map hours"
+         "address map hours"
+        ". social-links .";
+    }
+}
+/* ---------------YARD PAGE --------------- */
 
 /* FIRST SECTION */
 
