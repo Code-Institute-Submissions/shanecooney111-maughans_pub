@@ -21,6 +21,7 @@ a {
 
 li {
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -201,4 +202,21 @@ header {
     ". text1 . img ."
     ". text2 . img ."
     ". . . img .";
+}
+
+/* FOOTER SECTION */
+
+footer {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    align-items: center;
+    text-align: center;
 }
