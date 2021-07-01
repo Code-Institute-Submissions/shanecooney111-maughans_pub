@@ -230,6 +230,7 @@ footer {
     width: 380px;
     overflow: hidden;
     grid-area: img;
+    margin: 0 auto;
 }
 
 #yard-heading {
@@ -245,11 +246,22 @@ footer {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     grid-template-areas: 
     "hdg"
     "text" 
     "img";
     align-items: center;
     padding: 2% 2%;
+}
+
+@media screen and (min-width: 768px) {
+    .our-yard {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+         "hdg hdg"
+        "text img"
+        "text img"
+        "text img";
+    }
 }
