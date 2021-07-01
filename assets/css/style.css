@@ -220,3 +220,36 @@ footer {
     align-items: center;
     text-align: center;
 }
+
+/* YARD PAGE */
+
+/* FIRST SECTION */
+
+#yard-photo {
+    height: auto;
+    width: 380px;
+    overflow: hidden;
+    grid-area: img;
+}
+
+#yard-heading {
+    grid-area: hdg;
+    margin: 0 auto;
+}
+
+#yard-text {
+    grid-area: text;
+    text-align: justify;
+}
+.our-yard {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    "hdg"
+    "text" 
+    "img";
+    align-items: center;
+    padding: 2% 2%;
+}
