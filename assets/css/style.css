@@ -85,41 +85,44 @@ header {
 /* FIRST SECTION */
 
 .who-are-we {
-    padding: 60px 0;
     background-color: cadetblue;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "hdg"
+    "text" 
+    "img";
+    align-items: center;
+    padding: 2% 2%;
 }
-#placeholder {
-    width: 100%;
+#who-are-we-placeholder {
+    width: 90%;
     height: auto;
     grid-area: img;
-    background-position: center center;
+    margin: 0 auto;
 }
 
-.text-grid1 {
-    grid-area: text1;
-}
-
-.text-grid2 {
-    grid-area: text2;
-}
-
-.heading-grid {
-    grid-area: heading;
-    margin: auto;
+#who-are-we-text {
+    grid-area: text;
     text-align: center;
 }
 
-.grid1 {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 5% 44% 2% 44% 5%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-template-areas: 
-    ". heading . img ."
-    ". . . img ."
-    ". text1 . img ."
-    ". text2 . img ."
-    ". . . img .";
+#who-are-we-heading {
+    grid-area: hdg;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .who-are-we {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+         "hdg hdg"
+        "text img"
+        "text img"
+        "text img";
+    }
 }
 
 /* SECOND SECTION */
