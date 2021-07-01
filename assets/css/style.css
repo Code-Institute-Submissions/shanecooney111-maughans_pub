@@ -128,83 +128,91 @@ header {
 /* SECOND SECTION */
 
 .what-we-do {
-    padding: 60px 0;
     background-color: slategray;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "hdg"
+    "text" 
+    "img";
+    align-items: center;
+    padding: 2% 2%;
 }
 
-#placeholder {
-    width: 100%;
+#what-we-do-img {
+    width: 90%;
     height: auto;
     grid-area: img;
-    background-position: center center;
+    margin: 0 auto;
 }
 
-.heading-grid {
-    grid-area: heading;
-    margin: auto;
+#what-we-do-heading {
+    grid-area: hdg;
+    margin: 0 auto;
     text-align: center;
 }
 
-.text-grid1 {
-    grid-area: text1;
+#what-we-do-text {
+    grid-area: text;
+    text-align: center;
 }
 
-.text-grid2 {
-    grid-area: text2;
-}
-
-.grid2 {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 5% 44% 2% 44% 5%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-template-areas: 
-    ". img . heading ."
-    ". img . . ."
-    ". img . text1 ."
-    ". img . text2 ."
-    ". img . . .";
+@media screen and (min-width: 768px) {
+    .what-we-do {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+         "hdg hdg"
+        "text img"
+        "text img"
+        "text img";
+    }
 }
 
 /* THIRD SECTION */
 
 .live-sports {
-    padding: 60px 0;
     background-color: darkgreen;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "hdg"
+    "text" 
+    "img";
+    align-items: center;
+    padding: 2% 2%;
 }
 
-#placeholder {
-    width: 100%;
+#live-sports-img {
+    width: 90%;
     height: auto;
     grid-area: img;
-    background-position: center center;
+    margin: 0 auto;
 }
 
-.text-grid1 {
-    grid-area: text1;
-}
-
-.text-grid2 {
-    grid-area: text2;
-}
-
-.heading-grid {
-    grid-area: heading;
-    margin: auto;
+#live-sports-text {
+    grid-area: text;
     text-align: center;
 }
 
-.grid1 {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 5% 44% 2% 44% 5%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    grid-template-areas: 
-    ". heading . img ."
-    ". . . img ."
-    ". text1 . img ."
-    ". text2 . img ."
-    ". . . img .";
+#live-sports-hdg {
+    grid-area: hdg;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .live-sports {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+         "hdg hdg"
+        "text img"
+        "text img"
+        "text img";
+    }
 }
 
 /* FOOTER SECTION */
