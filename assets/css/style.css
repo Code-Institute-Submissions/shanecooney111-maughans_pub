@@ -100,6 +100,7 @@ header {
 #who-are-we-placeholder {
     width: 90%;
     height: auto;
+    max-height: 100%;
     grid-area: img;
     margin: 0 auto;
 }
@@ -269,6 +270,7 @@ header {
 
 #yard-photo {
     height: auto;
+    max-height: 100%;
     width: 380px;
     overflow: hidden;
     grid-area: img;
