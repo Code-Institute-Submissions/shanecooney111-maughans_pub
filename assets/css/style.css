@@ -86,7 +86,7 @@ header {
 
 .who-are-we {
     background-color: cadetblue;
-    height: 100vh;
+    /*height: 100vh;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
@@ -130,7 +130,7 @@ header {
 
 .what-we-do {
     background-color: slategray;
-    height: 100vh;
+     /*height: 100vh;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
@@ -175,7 +175,7 @@ header {
 
 .live-sports {
     background-color: darkgreen;
-    height: 100vh;
+   /*height: 100vh;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
@@ -308,4 +308,114 @@ header {
         "text img"
         "text img";
     }
+}
+
+/* GALLERY SECTION */
+
+.gallery-section {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    min-height: 0;
+    min-width: 0;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    "img7 img8";
+
+}
+
+#img1 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img2 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img3 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img4 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img5 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img6 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img7 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img8 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img9 {
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 576px) {
+    .gallery-section {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+         "img1 img2 img3"
+         "img4 img5 img6"
+         "img7 img8 img9"
+    }
+    #img9 {
+    visibility: visible;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .gallery-section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+         "img1 img2 img3 img4"
+         "img5 img6 img7 img8"
+    }
+    #img9 {
+        visibility: hidden;
+        }
 }
