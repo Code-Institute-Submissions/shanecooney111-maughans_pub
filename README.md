@@ -1,59 +1,188 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Maughans Pub 
+## Introduction
+Maughans Pub is a website about Maughans Pub, a traditional Irish Pub in Crossmolina, Co. Mayo in the west of Ireland. The website is targetted towards both potential customers and current customers of the pub. As there is no current website, it will be a useful asses for customers with common questions such as hosting events, opening hours and the location of the pub.
 
-Welcome shanecooney111,
+![Responsive Screenshot Mockup] (---Insert Screenshot Here!----)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### User Stories
+* As a user I want to find the opening hours for Maughans Pub. 
+* As a user I want to easily find information about what facilities Maughans Pub has.
+* As a user I want to easily find out about the location of Maughans Pub. 
+* As a user I want to know if Maughans Pub is suitable for events.
+* As a user I want to easily contact someone about hosting an event at the pub. 
+* As the business we want to promote the pub and its facilities.
+* As the business we want to visually show our venue inluding our new yard. 
+* As the business we want to drive traffic to our social media channels where we can promote upcoming events such as live music. 
+* As the business we want a host a facility where potential and current customers can ask questions. 
+* As the business we want to handle drink orders from the yard online.
 
-## Gitpod Reminders
+### Opportunities
+Arising from user stories 
+|Opportunities | Importance | Viability / Feasibility
+|-----|:------:|:-----:|
+|**Promote the pub and its facilities** | 5 | 5 |
+|**Provide useful information such as location and opening hours** | 5 | 5 |
+|**Provide information on events at Maughans Pub** | 5 | 5 |
+|**Provide links to social media channels to drive traffic** | 5 | 5 |
+|**Provide contact form for further queries** | 5 | 5 |
+|**Responsive site suitable for mobile and tablets**| 5 | 5 |
+|~~Enable users to order drinks from the yard online~~ | 3 | 1 |
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Wireframe mockups
+I utilised Balsamiq to produce wireframes to organise the site structure and content placement. I used the templates provided for iPad and iPhone to create a visually pleasing mobile responsive design.
 
-A blue button should appear to click: _Make Public_,
+* [Home page wireframe](https://github.com/shanecooney111/maughans_pub/blob/master/assets/wireframes/index.png)
+* [Yard page wireframe](https://github.com/shanecooney111/maughans_pub/blob/master/assets/wireframes/Yard.png)
+* [Media page wireframe](https://github.com/shanecooney111/maughans_pub/blob/master/assets/wireframes/Media.png)
+* [Contact page wireframe](https://github.com/shanecooney111/maughans_pub/blob/master/assets/wireframes/Contact%20Page.png)
 
-Another blue button should appear to click: _Open Browser_.
+## Features
+ 
+### Common Features 
+* Navigation Bar
+  * The navigation bar features a common design across all 5 of the .html pages and features a text logo Maughans Bar to the left and 4 links to the right. 
+  * The navigation bar includes links on the logo, Pub, Yard, Media and Contact. The various title links head to their respective pages for easy navigation. When the text logo is clicked it links back to the index.html page. 
+  * The navigation bar is fully responsive.....maybe.
+  * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](Insert Photo Here)
 
-Another blue button should appear to click: _Open Browser_.
+* Hero image
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  * Each page includes a hero image with a text overlay which further indicates to the user exactly which section of the site they are on.
+  * The image was careful chosen due to the historic race car within the image along with the iconic colour scheme as a visual reminder that the Leinster Trophy race is an event with a rich and long running history. The same colour scheme as the vehicle in the image was utilised throughout the site.
 
-To log into the Heroku toolbelt CLI:
+![Hero Image](Insert Photo Here)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Footer - Top
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+  * Each page includes a common footer split into two sections.
+  * The top section of the footer includes a navigation shortcut back to the top of the page to provide easy navigation around the site for users.
+  * There is also a call to action for the user to subscribe to the newsletter. This provides the users with an opportunity to keep on top of the latest information about the Leinster Trophy, whilst providing the Leinster Motor Club with additional subscribers.
 
-## Updates Since The Instructional Video
+![Footer Top](Insert Photo Here)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Footer - Bottom
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  * The lower section of the common footer includes logo links to each of the social media platforms that the Leinster Motor Club is present on. This provides the user with a visual call to action to prompt them into visiting the organisations social media profiles.
+  * These links offer an unintrusive method of promoting the social media channels to the user, providing benefits to the organisation by the way of increased social media following.
+  * The lower footer section also includes the copyright notice.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Footer Bottom](Insert Photo Here)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Home Page Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Who are we section
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  * 
+  * 
+  * 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Who are we section](Insert Photo Here)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* What we do section
+  
+  * 
+  * 
+  * 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![What we do section](Insert Photo Here)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Live Sports section
+  
+  * 
+  * 
+  * 
 
----
+![Live Sports section](Insert Photo Here)
 
-Happy coding!
+### Yard Page Features
+
+* Our Yard Section
+  
+  *
+
+![Our Yard Section](Insert Photo Here)
+
+* Gallery Section
+  
+  *
+
+![Gallery Section](Insert Photo Here)
+
+* Events Section
+  
+  *
+
+![Events Section](Insert Photo Here)
+
+### Media Page Features
+
+* Hero Video
+
+  * 
+
+![Hero Video](Insert Photo Here)
+
+* Instagram Feed
+
+  * 
+
+![Instagram Feed](Insert Photo Here)
+
+* Covid Video
+
+  * 
+
+![Covid Video](Insert Photo Here)
+
+### Contact Page Features
+
+* Contact Form
+
+  * 
+
+![Contact Form](Insert Photo Here)
+
+### Hidden Page Features
+
+* Contact Form Submission
+
+  * 
+
+![Contact Form Submission](Insert Photo Here)
+
+
+## Future Enhancements
+
+* 
+* 
+
+## Testing
+
+
+* Interesting Bugs
+
+## Validator Testing 
+
+
+## Deployment 
+ 
+* The site was deployed to GitHub pages. the steps to deploy are as follows: 
+  * In the GitHub repository, navigate to the settings tab
+  * Select the pages link from the setting menu on the left hand side 
+  * Under the GitHub Pages from the source section drop-down menu, select the master branch 
+  * One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  
+The live link can be found here - [Maughans Pub Live Site](https://shanecooney111.github.io/maughans_pub/)
+
+## Credits
+
+### Content  
+* The text for all other pages was created by myself. 
+* The reference material on HTML and CSS provided by [w3schools.com](https://www.w3schools.com/) was utilised to implement flexbox and grid and as general reference material for other areas. 
+* The icons used for the logo, bookmark link, download button and in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media 

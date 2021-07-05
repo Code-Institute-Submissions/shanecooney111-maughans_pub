@@ -85,23 +85,12 @@ header {
     border-bottom: 2px solid #000000
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 850px) {
     #menu {
-        position: absolute;
-        top: 40%;
-        float: none;
+     
     }
-    #menu li {
-        color: red;
-        float: none;
-        display: inline;
-    }
-    #menu li a {
-        color: red;
-        float: none;
-    }
-}
-
+}   
+*/
 /* FIRST SECTION */
 
 .who-are-we {
