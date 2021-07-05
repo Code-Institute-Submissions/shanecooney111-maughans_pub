@@ -28,7 +28,12 @@ li {
 /* HEADER SECTION */
 
 header {
-    background-image: url(assets/images/hero-image.JPG);
+    display: block;
+}
+
+
+#index-hero {
+    background-image: url(/assets/images/hero-image.JPG);
     background-size: cover;
     height: 100vh;
 }
@@ -346,6 +351,7 @@ header {
     grid-template-rows: auto;
     justify-items: stretch;
     align-items: stretch;
+    grid-gap: 0.5em;
     grid-template-areas: 
     "img1 img2"
     "img3 img4"
