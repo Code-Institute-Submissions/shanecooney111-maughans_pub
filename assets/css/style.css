@@ -415,7 +415,12 @@ header {
     min-width: 0;
     max-height: 100%;
     max-width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    #img9 {
     display: none;
+    }
 }
 
 @media screen and (min-width: 576px) {
