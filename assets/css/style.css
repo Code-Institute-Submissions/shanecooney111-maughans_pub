@@ -86,8 +86,10 @@ header {
 
 .who-are-we {
     background-color: cadetblue;
-    /*height: 100vh;*/
+    height: 100vh;
     display: grid;
+    min-height: 0;
+    min-width: 0;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     grid-template-areas: 
@@ -100,9 +102,12 @@ header {
 #who-are-we-placeholder {
     width: 90%;
     height: auto;
-    max-height: 100%;
     grid-area: img;
     margin: 0 auto;
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #who-are-we-text {
@@ -130,8 +135,10 @@ header {
 
 .what-we-do {
     background-color: slategray;
-     /*height: 100vh;*/
+    height: 100vh;
     display: grid;
+    min-height: 0;
+    min-width: 0;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     grid-template-areas: 
@@ -147,6 +154,10 @@ header {
     height: auto;
     grid-area: img;
     margin: 0 auto;
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #what-we-do-heading {
@@ -175,8 +186,10 @@ header {
 
 .live-sports {
     background-color: darkgreen;
-   /*height: 100vh;*/
+    height: 100vh;
     display: grid;
+    min-height: 0;
+    min-width: 0;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     grid-template-areas: 
@@ -192,6 +205,10 @@ header {
     height: auto;
     grid-area: img;
     margin: 0 auto;
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #live-sports-text {
@@ -222,6 +239,8 @@ header {
 .footer-grid {
     height: 100vh;
     display: grid;
+    min-height: 0;
+    min-width: 0;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     grid-template-areas: 
@@ -270,11 +289,13 @@ header {
 
 #yard-photo {
     height: auto;
-    max-height: 100%;
     width: 380px;
-    overflow: hidden;
     grid-area: img;
     margin: 0 auto;
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #yard-heading {
@@ -289,6 +310,8 @@ header {
 .our-yard {
     height: 100vh;
     display: grid;
+    min-height: 0;
+    min-width: 0;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     grid-template-areas: 
@@ -392,7 +415,7 @@ header {
     min-width: 0;
     max-height: 100%;
     max-width: 100%;
-    visibility: hidden;
+    display: none;
 }
 
 @media screen and (min-width: 576px) {
@@ -416,6 +439,54 @@ header {
          "img5 img6 img7 img8"
     }
     #img9 {
-        visibility: hidden;
+        display: none;
         }
+}
+
+/* EVENTS SECTION */
+
+#events-photo {
+    height: auto;
+    width: 380px;
+    grid-area: img;
+    margin: 0 auto;
+    overflow: hidden;
+    min-width: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#events-heading {
+    grid-area: hdg;
+    margin: 0 auto;
+}
+
+#events-text {
+    grid-area: text;
+    text-align: justify;
+}
+.yard-events {
+    height: 100vh;
+    display: grid;
+    min-height: 0;
+    min-width: 0;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "hdg"
+    "text" 
+    "img";
+    align-items: center;
+    padding: 2% 2%;
+}
+
+@media screen and (min-width: 768px) {
+    .yard-events {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+         "hdg hdg"
+        "text img"
+        "text img"
+        "text img";
+    }
 }
