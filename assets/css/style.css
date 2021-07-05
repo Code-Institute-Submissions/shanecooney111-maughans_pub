@@ -28,7 +28,7 @@ li {
 /* HEADER SECTION */
 
 header {
-    background-image: url(/assets/images/hero-image.JPG);
+    background-image: url(assets/images/hero-image.JPG);
     background-size: cover;
     height: 100vh;
 }
@@ -494,11 +494,7 @@ header {
         "text img"
         "text img";
     }
-<<<<<<< HEAD
 }
-=======
-}
-
 /* ---------------------------------------MEDIA PAGE ---------------------------------------------- */
 
 
@@ -532,4 +528,3 @@ header {
 }    
 
 /* ---------------------------------------CONTACT PAGE ---------------------------------------------- */
->>>>>>> 9129aba (Add html boilerplate with logo and nav bar to contact.html)
