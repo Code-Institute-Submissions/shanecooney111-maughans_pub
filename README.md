@@ -58,19 +58,9 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 * Footer - Top
 
-  * Each page includes a common footer split into two sections.
-  * The top section of the footer includes a navigation shortcut back to the top of the page to provide easy navigation around the site for users.
-  * There is also a call to action for the user to subscribe to the newsletter. This provides the users with an opportunity to keep on top of the latest information about the Leinster Trophy, whilst providing the Leinster Motor Club with additional subscribers.
+  * 
 
-![Footer Top](Insert Photo Here)
-
-* Footer - Bottom
-
-  * The lower section of the common footer includes logo links to each of the social media platforms that the Leinster Motor Club is present on. This provides the user with a visual call to action to prompt them into visiting the organisations social media profiles.
-  * These links offer an unintrusive method of promoting the social media channels to the user, providing benefits to the organisation by the way of increased social media following.
-  * The lower footer section also includes the copyright notice.
-
-![Footer Bottom](Insert Photo Here)
+![Footer Image](Insert Photo Here)  
 
 ### Home Page Features
 
