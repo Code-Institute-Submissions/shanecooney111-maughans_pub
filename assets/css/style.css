@@ -34,7 +34,7 @@ header {
 
 
 #index-hero {
-    background-image: url(/assets/images/pub-front.JPG);
+    background-image: url(assets/images/pub-front.JPG);
     background-size: cover;
     height: 100vh;
 }
