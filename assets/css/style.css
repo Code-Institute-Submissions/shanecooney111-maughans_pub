@@ -28,17 +28,8 @@ li {
 
 /* HEADER SECTION */
 
-#index-hero {
-    background-image: url(../images/pub-front.JPG);
-    background-size: cover;
-    height: 100vh;
-}
 
-#hero-image img{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
+
 
 /* NAVIGATION SECTION */
 
@@ -127,7 +118,17 @@ nav a:hover {
     border-bottom: 2px solid #000000
 } */
 
+/* ---------------------------------------PUB PAGE ---------------------------------------------- */
+
 /* FIRST SECTION */
+.index-hero-image {
+    background-image: url(../images/pub-front.JPG);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 .who-are-we {
     background-color: #000000;
@@ -350,10 +351,11 @@ nav a:hover {
 }
 /* ---------------------------------------YARD PAGE ---------------------------------------------- */
 
-#yard-hero {
-    background-image: url(/assets/images/yard-pano.JPG);
+.yard-hero-image {
+    background-image: url(../images/yard-pano.JPG);
     background-size: cover;
     height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
