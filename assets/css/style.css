@@ -42,7 +42,7 @@ nav {
   }
 
 nav a {
-    color: white;
+    color: darkgoldenrod;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -75,6 +75,7 @@ nav a:active {
   }
 
 .left-menu a {
+    color: #fff;
     padding: 10px 0;
     margin-left: 15px;
     font-size: 14px;
@@ -279,9 +280,12 @@ nav a:active {
 
 /* FOOTER SECTION */
 
+footer {
+    color: #000000;
+}
 
 .footer-grid {
-    background-color: #C0C0C0;
+    background-color: #8d8c8c;
     height: 100vh;
     display: grid;
     min-height: 0;
@@ -301,6 +305,10 @@ nav a:active {
     grid-area: address;
     margin: 0 auto;
     text-align: center;
+}
+
+#address i {
+    color: darkgoldenrod;
 }
 
 #map {
