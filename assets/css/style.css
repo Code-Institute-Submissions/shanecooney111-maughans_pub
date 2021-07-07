@@ -49,15 +49,26 @@ nav a {
 
     transition: .3s all ease-in-out;
   } 
-
-nav a:hover {
-    opacity: .7;
-  }
-     
+ 
 .nav-container {
     width: 100%;
+  } 
+
+nav a:link,
+nav a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
   }
   
+nav a:hover,
+nav a:active {
+    border-bottom: 2px solid darkgoldenrod;
+  }   
+
 .left-menu {
     grid-column: 1;
     align-self: center;
@@ -100,23 +111,7 @@ nav a:hover {
       display: grid;
       grid-row: 2;
     }
-  }                
-/*
-
-#menu li a:link,
-#menu li a:visited {
-    padding: 8px 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
-}
-
-#menu li a:hover,
-#menu li a:active {
-    border-bottom: 2px solid #000000
-} */
+  }
 
 /* ---------------------------------------PUB PAGE ---------------------------------------------- */
 
