@@ -83,6 +83,7 @@ nav a:hover {
 .logo {
     font-size: 40px;
     padding: 1rem;
+    grid-column: 2;
   }
       
 #nav-toggle, .burger-menu {

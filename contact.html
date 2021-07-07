@@ -9,28 +9,22 @@
 </head>
 <body>
     <header>
-        <div id="logo">
-        <a href="index.html">	
-            <h1>Maughans Pub</h1>	
-        </a>
-        </div>		
-        <nav>	
-            <ul id="menu">	
-                <li>	
-                    <a href="contact.html">CONTACT</a>	
-                </li>
-                <li>	
-                    <a href="media.html">MEDIA</a>	
-                </li>
-                <li>	
-                    <a href="yard.html">YARD</a>	
-                </li>
-                <li>	
-                    <a href="index.html">BAR</a>	
-                </li>			
-            </ul>	
-        </nav>	
-    </header>
+        <div class="nav-container">
+            <nav>
+              <input type="checkbox" id="nav-toggle">
+              <label for="nav-toggle" class="burger-menu">
+                <i class="fas fa-bars"></i>
+              </label>
+              <div class="left-menu">
+                  <a href="index.html">Pub</a>
+                  <a href="yard.html">Yard</a>
+                  <a href="media.html">Media</a>
+                  <a href="contact.html">Contact</a>
+              </div>
+              <a href="index.html" class="logo">MAUGHANS PUB</a>
+            </nav>
+        </div>
+    </header> 
 
     <section class="contact-container">
         <h2 id="contact-heading">Send us a message!</h2>
