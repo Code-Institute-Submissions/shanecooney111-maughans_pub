@@ -112,6 +112,10 @@ nav a:active {
       display: grid;
       grid-row: 2;
     }
+
+    .logo {
+        font-size: 30px;
+    }
   }
 
 /* ---------------------------------------PUB PAGE ---------------------------------------------- */
@@ -324,10 +328,6 @@ footer {
 #social-links {
     grid-area: social-links;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "1 2";
 }
 
 #social-links ul {
@@ -335,14 +335,13 @@ footer {
     font-size: 500%;
 }
 
-#fb-icon {
-    grid-area: 1;
+#fb-logo {
+    margin: 0 20px 0 0;
 }
 
-#insta-icon {
-    grid-area: 2;
+#insta-logo {
+    margin: 0 0 0 20px;
 }
-
 @media screen and (min-width: 768px) {
     .footer-grid {
         height: 50vh;
