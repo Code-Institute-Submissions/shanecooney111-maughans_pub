@@ -80,13 +80,11 @@ nav a:hover {
     letter-spacing: 0.5px;
   }  
 
-
 .logo {
     font-size: 40px;
     padding: 1rem;
   }
       
-
 #nav-toggle, .burger-menu {
     display: none;
   }
@@ -95,9 +93,8 @@ nav a:hover {
     grid-column: 1;
     align-self: center;
     margin-left: 20px;
-  }  
+  } 
 
-  
 @media only screen and (max-width: 1025px) {
     .burger-menu {
       display: inline-block;
