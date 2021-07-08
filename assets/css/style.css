@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap');
 
+/* gray color - #bbb5b5
+    orange color - */
 * {
     margin: 0;
     padding: 0;
@@ -68,6 +70,10 @@ nav a:hover,
 nav a:active {
     border-bottom: 2px solid darkgoldenrod;
   }   
+
+.left-menu a.active {
+    color: darkgoldenrod;
+}  
 
 .left-menu {
     grid-column: 1;
@@ -289,8 +295,9 @@ footer {
 }
 
 .footer-grid {
-    background-color: #8d8c8c;
+    background-color: #bbb5b5;
     height: 100vh;
+    width: 100vw;
     display: grid;
     min-height: 0;
     min-width: 0;
