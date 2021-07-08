@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap');
 
 /* gray color - #bbb5b5
-    orange color - */
+    orange color - #e0bd81*/
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ body {
 
 a {
     text-decoration: none;
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 li {
@@ -44,7 +44,7 @@ nav {
   }
 
 nav a {
-    color: darkgoldenrod;
+    color: #d0880d;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -68,11 +68,11 @@ nav a:visited {
   
 nav a:hover,
 nav a:active {
-    border-bottom: 2px solid darkgoldenrod;
+    border-bottom: 2px solid #d0880d;
   }   
 
 .left-menu a.active {
-    color: darkgoldenrod;
+    color: #d0880d;
 }  
 
 .left-menu {
@@ -170,7 +170,7 @@ nav a:active {
 #who-are-we-heading {
     grid-area: hdg;
     margin: 0 auto;
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 @media screen and (min-width: 768px) {
@@ -217,7 +217,7 @@ nav a:active {
     grid-area: hdg;
     margin: 0 auto;
     text-align: center;
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 #what-we-do-text {
@@ -274,7 +274,7 @@ nav a:active {
     grid-area: hdg;
     text-align: center;
     margin: 0 auto;
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 @media screen and (min-width: 768px) {
@@ -297,7 +297,6 @@ footer {
 .footer-grid {
     background-color: #bbb5b5;
     height: 100vh;
-    width: 100vw;
     display: grid;
     min-height: 0;
     min-width: 0;
@@ -320,7 +319,7 @@ footer {
 }
 
 #address i {
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 #map {
@@ -391,7 +390,7 @@ footer {
 #yard-heading {
     grid-area: hdg;
     margin: 0 auto;
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 #yard-text {
@@ -558,7 +557,7 @@ footer {
 #events-heading {
     grid-area: hdg;
     margin: 0 auto;
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 #events-text {
@@ -647,7 +646,6 @@ footer {
 .contact-container {
     background-color: #000;
     height: 100vh;
-    width: 100vw;
     display: grid;
     min-height: 0;
     min-width: 0;
@@ -664,7 +662,7 @@ footer {
 #contact-heading {
     grid-area: hdg;
     text-align: center;
-    color: darkgoldenrod;
+    color: #d0880d;
 }
 
 #contact-form {
@@ -695,7 +693,7 @@ input[type=text], input[type=email], textarea {
 }
 
 input[type=submit] {
-    background-color: darkgoldenrod;
+    background-color: #d0880d;
     color: white;
     padding: 12px 20px;
     border: none;
