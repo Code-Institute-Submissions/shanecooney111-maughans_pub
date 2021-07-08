@@ -590,6 +590,10 @@ footer {
     height: 100vh;
 }
 
+.hero-video h2 {
+    margin-top: 2em;
+}
+
 #mayo-tv-video {
     max-width: 100vw;
     margin-top: 10em;
@@ -600,8 +604,13 @@ footer {
 .instagram-feed {
     max-width: 100vw;
     background-color: #000;
+    margin: 0 auto;
 }
 
+.instagram-feed h2 {
+    margin-bottom: 2em;
+    text-align: center;
+}
 
 /* COVID19 VIDEO SECTION */
 
@@ -617,6 +626,9 @@ footer {
     margin-top: 10em;
 }    
 
+.covid-video h2 {
+    margin-top: 2em;
+}
 /* ---------------------------------------CONTACT PAGE ---------------------------------------------- */
 
 .contact-container {
