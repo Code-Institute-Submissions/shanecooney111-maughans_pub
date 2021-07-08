@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap');
 
 /* gray color - #bbb5b5
-    orange color - #e0bd81*/
+    orange color - #d0880d*/
 * {
     margin: 0;
     padding: 0;
@@ -693,9 +693,9 @@ footer {
 
 input[type=text], input[type=email], textarea {
     width: 100%;
-    background-color: #C0C0C0;
+    background-color: #bbb5b5;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #bbb5b5;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
