@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400;500&display=swap');
 
 /* gray color - #bbb5b5
     orange color - #d0880d*/
@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: #000;
     color: #fff;
 }
@@ -25,6 +25,12 @@ a {
 li {
     text-decoration: none;
     list-style: none;
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
 }
 
 
@@ -48,6 +54,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    font-weight: 500;
 
     transition: .3s all ease-in-out;
   } 
