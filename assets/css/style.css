@@ -173,7 +173,7 @@ nav a:active {
     color: #d0880d;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .who-are-we {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -225,7 +225,7 @@ nav a:active {
     text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .what-we-do {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -277,7 +277,7 @@ nav a:active {
     color: #d0880d;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .live-sports {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -354,7 +354,18 @@ footer {
 #insta-logo {
     margin: 0 0 0 20px;
 }
+
 @media screen and (min-width: 768px) {
+    .footer-grid {
+        height: 50vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+         "address map hours"
+        ". social-links copyright";
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .footer-grid {
         height: 50vh;
         grid-template-columns: 1fr 1fr 1fr;
@@ -413,7 +424,7 @@ footer {
     padding: 2% 2%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .our-yard {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -510,13 +521,13 @@ footer {
     max-width: 100%;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 767px) {
     #img9 {
     display: none;
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
     .gallery-section {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
@@ -529,7 +540,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     .gallery-section {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-areas:
@@ -580,7 +591,7 @@ footer {
     padding: 2% 2%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .yard-events {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -701,13 +712,13 @@ input[type=submit] {
     cursor: pointer;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 767px) {
         #contact-photo {
         display: none;
         }
     }
     
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
         .contact-container {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
