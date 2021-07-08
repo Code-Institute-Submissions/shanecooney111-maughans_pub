@@ -296,7 +296,7 @@ footer {
 
 .footer-grid {
     background-color: #bbb5b5;
-    height: 100vh;
+    height: auto;
     display: grid;
     min-height: 0;
     min-width: 0;
