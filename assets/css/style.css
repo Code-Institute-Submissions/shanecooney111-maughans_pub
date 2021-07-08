@@ -300,7 +300,8 @@ footer {
     "map"
     "address" 
     "hours"
-    "social-links";
+    "social-links"
+    "copyright";
     align-items: center;
     padding: 2% 2%;
 }
@@ -330,6 +331,11 @@ footer {
     margin: 0 auto;
 }
 
+#copyright {
+    grid-area: copyright;
+    margin: 0 auto;
+}
+
 #social-links ul {
     display: flex;
     font-size: 500%;
@@ -348,7 +354,7 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
          "address map hours"
-        ". social-links .";
+        ". social-links copyright";
     }
 }
 /* ---------------------------------------YARD PAGE ---------------------------------------------- */
