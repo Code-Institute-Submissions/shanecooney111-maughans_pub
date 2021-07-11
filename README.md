@@ -76,43 +76,23 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 ![Hero Image](assets/media/hero-image-screenshot.png "Screenshot of Hero Image on index.html")
 
-* Who are we section
-
-  * 
-  * 
-  * 
-
-![Who are we section](Insert Photo Here)
-
-* What we do section
-  
-  * 
-  * 
-  * 
-
-![What we do section](Insert Photo Here)
-
-* Live Sports section
-  
-  * 
-  * 
-  * 
-
-![Live Sports section](Insert Photo Here)
-
 ### Yard Page Features
 
-* Our Yard Section
+* Hero Image
   
-  *
+  * The Yard page displays a hero image giving the user a clear overview of the yard.
+  * The image was taken in Pano mode in an attempt to fit in as much of the yard as possible.
 
-![Our Yard Section](Insert Photo Here)
+![Yard Hero Image](assets/media.yard-hero-screenshot.png "Screenshot of Hero Image on yard.html")
 
 * Gallery Section
   
-  *
+  * I created a Gallery section on the Yard page to display multiple photos.
+  * The Gallery section is fully responsive using CSS Grid and Media Querys to change format depending on what device the user is using.
+  * As the Yard area of the business is new, I wanted to display as much of this new area to the user as possible. 
+  * On a tablet device, one extra image displays to ensure the grid looked symettrical in a 3X3 format. This image doesn't appear on a mobile or desktop device.
 
-![Gallery Section](Insert Photo Here)
+![Gallery Section](assets/media/gallery-screenshot.png "Screenshot of Gallery Section on yard.html)
 
 * Events Section
   
