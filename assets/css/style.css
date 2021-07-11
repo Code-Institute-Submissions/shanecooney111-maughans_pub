@@ -603,9 +603,9 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
          "hdg hdg"
-        "text video"
-        "text video"
-        "text video";
+        "video text"
+        "video text"
+        "video text";
     }
 }
 /* ---------------------------------------MEDIA PAGE ---------------------------------------------- */
