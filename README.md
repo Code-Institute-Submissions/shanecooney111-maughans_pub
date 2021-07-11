@@ -2,7 +2,7 @@
 ## Introduction
 Maughans Pub is a website about Maughans Pub, a traditional Irish Pub in Crossmolina, Co. Mayo in the west of Ireland. The website is targetted towards both potential customers and current customers of the pub. As there is no current website, it will be a useful asset for customers with common questions such as hosting events, opening hours and the location of the pub.
 
-![Responsive Screenshot Mockup](/assets/media/am-i-responsive.png "Responsive Screenshot Mockup")
+![Responsive Screenshot Mockup](assets/media/am-i-responsive.png "Responsive Screenshot Mockup")
 
 ### User Stories
 * As a user I want to find the opening hours for Maughans Pub. 
@@ -41,10 +41,10 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
  
 ### Common Features 
 * Navigation Bar
-  * The navigation bar features a common design across all 5 of the .html pages and features a text logo Maughans Bar to the left and 4 links to the right. 
+  * The navigation bar features a common design across all 5 of the .html pages and features a text logo Maughans Bar in the centre with 4 links to the left.  
   * The navigation bar includes links on the logo, Pub, Yard, Media and Contact. The various title links head to their respective pages for easy navigation. When the text logo is clicked it links back to the index.html page. 
-  * The navigation bar is fully responsive.....maybe.
-  * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
+  * The navigation bar is fully responsive and with the use of a media query, the format changes to a burger menu on the left hand side which the user can toggle on devices smaller than 1025px to display the 4 navigation links. 
+  * The current page is displayed in a different colour as the other links as a visual indicator to the user as to which page they are currently on. A line appearing underneath the text on hover to visually indicate to users that they are clickable.
 
 
 ![Nav Bar](assets/media/nav-bar-screenshot.png "Nav Bar Screenshot")
