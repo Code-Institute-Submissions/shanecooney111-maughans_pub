@@ -162,7 +162,7 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
     * [Home page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Findex.html)
     * [Yard page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Fyard.html)
     * [Media page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Fmedia.html)
-    * [Contact page]()
+    * [Contact page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Fcontact.html)
     * [Form submission page]()
 
  
