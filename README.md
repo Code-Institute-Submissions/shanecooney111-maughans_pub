@@ -2,7 +2,7 @@
 ## Introduction
 Maughans Pub is a website about Maughans Pub, a traditional Irish Pub in Crossmolina, Co. Mayo in the west of Ireland. The website is targetted towards both potential customers and current customers of the pub. As there is no current website, it will be a useful asset for customers with common questions such as hosting events, opening hours and the location of the pub.
 
-![Responsive Screenshot Mockup](/assets/images/am-i-responsive.png "Responsive Screenshot Mockup")
+![Responsive Screenshot Mockup](/assets/media/am-i-responsive.png "Responsive Screenshot Mockup")
 
 ### User Stories
 * As a user I want to find the opening hours for Maughans Pub. 
@@ -47,7 +47,7 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
   * A horizontal line appears under the current page as a visual indicator to the user as to which page they are currently on. With a line appearing underneath the text on hover to visually indicate to users that they are clickable.
 
 
-![Nav Bar](Insert Photo Here)
+![Nav Bar](assets/media/nav-bar-screenshot.png "Nav Bar Screenshot")
 
 * Hero image
 
