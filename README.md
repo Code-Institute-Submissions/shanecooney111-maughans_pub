@@ -104,15 +104,17 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 * Hero Video
 
-  * 
+  * I have used an embedded Youtube video as my hero video for media.html. As the file size was very large it was logical to embedd it from Youtube. 
+  * It features a segment from a TV show that was shot in the Pub by IMayo TV.
 
-![Hero Video](Insert Photo Here)
+![Hero Video](assets/media/hero-video-screenshot.png "Screenshot of hero video on media.html")
 
 * Instagram Feed
 
-  * 
+  * The Instagram Feed section features the 8 most recent Instagram posts from the Maughan's Pub Instagram account.
+  * There is a large call to action at the top with the Pub Instagram account linked to the Instagram Logo at the top of the section. 
 
-![Instagram Feed](Insert Photo Here)
+![Instagram Feed](assets/media/instagram-screenshot.png "Screenshot of Instagram Feed")
 
 * Covid Video
 

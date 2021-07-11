@@ -413,7 +413,7 @@ footer {
 
 #yard-text {
     grid-area: text;
-    text-align: justify;
+    text-align: center;
 }
 .our-yard {
     background-color: #000000;
@@ -580,7 +580,7 @@ footer {
 
 #events-text {
     grid-area: text;
-    text-align: justify;
+    text-align: center;
 }
 .yard-events {
     background-color: #000000;
