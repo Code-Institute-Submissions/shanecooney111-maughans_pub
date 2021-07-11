@@ -161,7 +161,7 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
   * No errors were returned when passing through the official W3C Validator.
     * [Home page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Findex.html)
     * [Yard page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Fyard.html)
-    * [Media page]()
+    * [Media page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Fmedia.html)
     * [Contact page]()
     * [Form submission page]()
 
