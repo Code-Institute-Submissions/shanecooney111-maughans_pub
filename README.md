@@ -157,7 +157,15 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 ## Validator Testing 
 
-
+* HTML 
+  * No errors were returned when passing through the official W3C Validator.
+    * [Home page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fshanecooney111.github.io%2Fmaughans_pub%2Findex.html)
+    * [Trophy page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Ftrophy.html)
+    * [Winners page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fwinners.html)
+    * [Gallery page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fgallery.html)
+    * [Contact page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fcontact.html)
+    * [Newsletter thank you page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fnewsletter-submit.html)
+    * [Form submission page](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Fmattbcoding.github.io%2Fleinster-trophy%2Fform-submit.html)
 ## Deployment 
  
 * The site was deployed to GitHub pages. the steps to deploy are as follows: 
