@@ -56,7 +56,7 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
   * The Footer contains 5 different sections with each providing useful information to the user. They are Contact Details, Map, Opening Hours, Social Media Links and finally the Web Designer.
   * The background colour was chosen to provide contrast to visually impaired users and to clearly define the Footer area from different sections on the pages.
 
-![Footer Image](assets/media/footer-screenshot "Screenshot of footer")  
+![Footer Image](assets/media/footer-screenshot.png "Screenshot of footer")  
 
 ### Home Page Features
 
