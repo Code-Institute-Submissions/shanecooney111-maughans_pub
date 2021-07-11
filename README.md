@@ -49,18 +49,14 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 ![Nav Bar](assets/media/nav-bar-screenshot.png "Nav Bar Screenshot")
 
-* Hero image
+* Footer 
 
-  * Each page includes a hero image with a text overlay which further indicates to the user exactly which section of the site they are on.
-  * The image was careful chosen due to the historic race car within the image along with the iconic colour scheme as a visual reminder that the Leinster Trophy race is an event with a rich and long running history. The same colour scheme as the vehicle in the image was utilised throughout the site.
+  * The Footer is common to all 5 html pages built intp the Maughans Pub website.
+  * The Footer was made using CSS Grid in a mobile first design. It uses two media queries to expand for both tablet and laptop devices to make it look more estically pleasing.
+  * The Footer contains 5 different sections with each providing useful information to the user. They are Contact Details, Map, Opening Hours, Social Media Links and finally the Web Designer.
+  * The background colour was chosen to provide contrast to visually impaired users and to clearly define the Footer area from different sections on the pages.
 
-![Hero Image](Insert Photo Here)
-
-* Footer - Top
-
-  * 
-
-![Footer Image](Insert Photo Here)  
+![Footer Image](assets/media/footer-screenshot "Screenshot of footer")  
 
 ### Home Page Features
 
