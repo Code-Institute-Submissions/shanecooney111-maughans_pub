@@ -83,7 +83,7 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
   * The Yard page displays a hero image giving the user a clear overview of the yard.
   * The image was taken in Pano mode in an attempt to fit in as much of the yard as possible.
 
-![Yard Hero Image](assets/media.yard-hero-screenshot.png "Screenshot of Hero Image on yard.html")
+![Yard Hero Image](assets/media/yard-hero-screenshot.png "Screenshot of Hero Image on yard.html")
 
 * Gallery Section
   
@@ -92,7 +92,7 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
   * As the Yard area of the business is new, I wanted to display as much of this new area to the user as possible. 
   * On a tablet device, one extra image displays to ensure the grid looked symettrical in a 3X3 format. This image doesn't appear on a mobile or desktop device.
 
-![Gallery Section](assets/media/gallery-screenshot.png "Screenshot of Gallery Section on yard.html)
+![Gallery Section](assets/media/gallery-screenshot.png "Screenshot of Gallery Section on yard.html")
 
 * Events Section
   
