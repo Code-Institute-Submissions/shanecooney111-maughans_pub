@@ -49,6 +49,15 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 ![Nav Bar](assets/media/nav-bar-screenshot.png "Nav Bar Screenshot")
 
+* Information Grids
+
+  * On both the Pub and Yard pages there are 5 common information grids which all use a common layout.
+  * They are build using CSS Grid in a mobile first design and use a Media Query to transform the layout for screens larger than 1024px. 
+  * Each of the 5 sections contain a Heading, Text providing various pieces of information on the business and an image. 
+  * The background colours and font colours were chosen to match the colours that the outside of the Pub are styled in and to provide maximum contrast to the user.
+
+![Information Grids](assets/media/information-grid-screenshot.png "Nav Bar Screenshot")  
+
 * Footer 
 
   * The Footer is common to all 5 html pages built intp the Maughans Pub website.
