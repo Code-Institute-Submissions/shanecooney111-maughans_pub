@@ -144,11 +144,14 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 ## Future Enhancements
 
-* 
-* 
+* The ability for customers to scan a QR code on their table and order a drink online would be hugely benefecial for both staff and customers as due to Covid 19, the Pub must operate under table service only. This would allow the bar staff to start drink orders before the waiting staff come into the Pub to pick up the drinks.
 
 ## Testing
+* I undertook a 2 step approach to testing. Firstly my mentor advised me to deploy asap and test as I go. This continuous testing proved to be very helpful as when I would make a change I would test it using Google Dev Tools, to ensure the application that was intended was correct.
 
+* For the second step of testing, I undertook a structured approach and tested every feature on every page on 3 personal devices I owned. These were undertaken on an iPhone 11 Pro, an Ipad Air and a Macbook Pro 13". This again proved very helpful and encouraged me to alter the layout of the CSS grids on tablet devices to be more aligned with the mobile device style. 
+
+* Lastly I asked multiple friends to test the website on their devices and asked them to make a note of anything they found unusul or that they thought was wrong. This proved particularly helpful for typos.
 
 * Interesting Bugs
 
