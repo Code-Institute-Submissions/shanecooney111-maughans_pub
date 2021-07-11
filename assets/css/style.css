@@ -561,10 +561,10 @@ footer {
 
 /* EVENTS SECTION */
 
-#events-photo {
+#events-video {
     height: auto;
     width: 380px;
-    grid-area: img;
+    grid-area: video;
     margin: 0 auto;
     overflow: hidden;
     min-width: 0;
@@ -593,7 +593,7 @@ footer {
     grid-template-areas: 
     "hdg"
     "text" 
-    "img";
+    "video";
     align-items: center;
     padding: 2% 2%;
 }
@@ -603,9 +603,9 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
          "hdg hdg"
-        "text img"
-        "text img"
-        "text img";
+        "text video"
+        "text video"
+        "text video";
     }
 }
 /* ---------------------------------------MEDIA PAGE ---------------------------------------------- */
