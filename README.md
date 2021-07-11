@@ -119,9 +119,9 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 * Covid Video
 
-  * 
+  * Maughan's Pub recently recorded a re-opening information video for operating post Covid 19. This video was uploaded to Youtube as unlisted and embedded on the media.html page here. 
 
-![Covid Video](Insert Photo Here)
+![Covid Video](assets/media/covid-video-screenshot.png "Screenshot of covid protocols video on media.html")
 
 ### Contact Page Features
 
