@@ -96,9 +96,10 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 * Events Section
   
-  *
+  * The events section has a small change from the other information grid where this section uses a video instead of an image. 
+  * The video is a short 20 seconds and gives the user controls.
 
-![Events Section](Insert Photo Here)
+![Events Section](assets/media/events-screenshot.png "Screenshot of Events Section on yard.html")
 
 ### Media Page Features
 
