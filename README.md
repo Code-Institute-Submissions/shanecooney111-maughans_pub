@@ -127,17 +127,19 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 * Contact Form
 
-  * 
+  * The contact form provides users with the ability to contact Maughan's Pub directly with any questions or comments.
+  * The user is asked for their name, email, mobile and a message or query they have. 
 
-![Contact Form](Insert Photo Here)
+![Contact Form](assets/media/contact-screenshot.png "Screenshot of Contact Form on contact.html")
 
 ### Hidden Page Features
 
 * Contact Form Submission
 
-  * 
+  * A response to the contact form submission is displayed to those users who successfully fill out the form.
+  * This is displayed through a thank you message and a photo of the staff.
 
-![Contact Form Submission](Insert Photo Here)
+![Contact Form Submission](assets/media/form-submit-screenshot.png "Screenshot of Form Submission Message on form-submit.html")
 
 
 ## Future Enhancements
