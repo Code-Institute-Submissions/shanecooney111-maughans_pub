@@ -60,6 +60,13 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 ### Home Page Features
 
+* Hero image
+
+  * The Pub page displays a hero image giving a clear visual indication of the business from the outside.
+  * This image acts as a second Logo providing additional information from the sign such as Est. 1911.
+
+![Hero Image](assets/media/hero-image-screenshot.png "Screenshot of Hero Image on index.html")
+
 * Who are we section
 
   * 
