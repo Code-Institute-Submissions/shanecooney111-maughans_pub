@@ -26,6 +26,9 @@ li {
     text-decoration: none;
     list-style: none;
 }
+h1 {
+    font-size: 1em;
+}
 
 h2 {
     font-family: "Oswald", sans-serif;
