@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400;500&display=swap');
 
-/* gray color - #bbb5b5
-    orange color - #d0880d*/
 * {
     margin: 0;
     padding: 0;
@@ -36,11 +34,7 @@ h2 {
     font-size: 2em;
 }
 
-p {
-    font-size: 1.2em;
-}
-
-/* NAVIGATION SECTION */
+/* NAVIGATION & LOGO SECTION */
 
 
 nav {
@@ -131,6 +125,93 @@ nav a:active {
         font-size: 30px;
     }
   }
+
+/* FOOTER SECTION */
+
+footer {
+    color: #000000;
+}
+
+.footer-grid {
+    background-color: #bbb5b5;
+    height: auto;
+    display: grid;
+    min-height: 0;
+    min-width: 0;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "map"
+    "address" 
+    "hours"
+    "social-links"
+    "copyright";
+    align-items: center;
+    padding: 2% 2%;
+}
+
+#address {
+    grid-area: address;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#address i {
+    color: #d0880d;
+}
+
+#map {
+    grid-area: map;
+    margin: 0 auto;
+}
+
+#hours {
+    grid-area: hours;
+    margin: 0 auto;
+}
+
+#social-links {
+    grid-area: social-links;
+    margin: 0 auto;
+}
+
+#copyright {
+    grid-area: copyright;
+    margin: 0 auto;
+}
+
+#social-links ul {
+    display: flex;
+    font-size: 500%;
+}
+
+#fb-logo {
+    margin: 0 20px 0 0;
+}
+
+#insta-logo {
+    margin: 0 0 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-grid {
+        height: 50vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+         "address map hours"
+        ". social-links copyright";
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-grid {
+        height: 50vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+         "address map hours"
+        ". social-links copyright";
+    }
+}
 
 /* ---------------------------------------PUB PAGE ---------------------------------------------- */
 
@@ -296,92 +377,6 @@ nav a:active {
     }
 }
 
-/* FOOTER SECTION */
-
-footer {
-    color: #000000;
-}
-
-.footer-grid {
-    background-color: #bbb5b5;
-    height: auto;
-    display: grid;
-    min-height: 0;
-    min-width: 0;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    grid-template-areas: 
-    "map"
-    "address" 
-    "hours"
-    "social-links"
-    "copyright";
-    align-items: center;
-    padding: 2% 2%;
-}
-
-#address {
-    grid-area: address;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#address i {
-    color: #d0880d;
-}
-
-#map {
-    grid-area: map;
-    margin: 0 auto;
-}
-
-#hours {
-    grid-area: hours;
-    margin: 0 auto;
-}
-
-#social-links {
-    grid-area: social-links;
-    margin: 0 auto;
-}
-
-#copyright {
-    grid-area: copyright;
-    margin: 0 auto;
-}
-
-#social-links ul {
-    display: flex;
-    font-size: 500%;
-}
-
-#fb-logo {
-    margin: 0 20px 0 0;
-}
-
-#insta-logo {
-    margin: 0 0 0 20px;
-}
-
-@media screen and (min-width: 768px) {
-    .footer-grid {
-        height: 50vh;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-         "address map hours"
-        ". social-links copyright";
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .footer-grid {
-        height: 50vh;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-         "address map hours"
-        ". social-links copyright";
-    }
-}
 /* ---------------------------------------YARD PAGE ---------------------------------------------- */
 
 .yard-hero-image {
