@@ -183,6 +183,7 @@ The live link can be found here - [Maughans Pub Live Site](https://shanecooney11
 * The text for all other pages was created by myself. 
 * [learncssgrid.com](https://learncssgrid.com/) was an excellent resource for learning CSS Grid.
 * The icons used across the website were from Font Awesome. [Font Awesome](https://fontawesome.com/)
+[Grammerly](https://www.grammarly.com/) was used for spelling corrections on all pages.
 
 ### Media 
 * All media used was taken by myself.
