@@ -3,6 +3,7 @@
 Maughans Pub is a website about Maughans Pub, a traditional Irish Pub in Crossmolina, Co. Mayo in the west of Ireland. The website is targeted towards both potential customers and current customers of the pub. As there is no current website, it will be a useful asset for customers with common questions such as hosting events, opening hours and the location of the pub.
 
 ![Responsive Screenshot Mockup](assets/media/am-i-responsive.png "Responsive Screenshot Mockup")
+The live link can be found here - [Maughans Pub Live Site](https://shanecooney111.github.io/maughans_pub/)
 
 ### User Stories
 * As a user I want to find the opening hours for Maughans Pub. 
