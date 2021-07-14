@@ -170,6 +170,8 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
   * No errors were returned when passing through the official (Jigsaw) Validator
   [Style.css](https://jigsaw.w3.org/css-validator/validator#css)
 
+## Deployment
+
 * The site was deployed to GitHub pages. the steps to deploy are as follows: 
   * In the GitHub repository, navigate to the settings tab
   * Select the pages to link from the setting menu on the left-hand side 
