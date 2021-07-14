@@ -168,7 +168,7 @@ I utilised Balsamiq to produce wireframes to organise the site structure and con
 
 * CSS
   * No errors were returned when passing through the official (Jigsaw) Validator
-  [Style.css](https://jigsaw.w3.org/css-validator/validator#css)
+  [Style.css](assets/media/jigsaw-validation.png "Screenshot of Jigsaw Validation")
 
 ## Deployment
 
