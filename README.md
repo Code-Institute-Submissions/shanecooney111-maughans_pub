@@ -187,6 +187,7 @@ The live link can be found here - [Maughans Pub Live Site](https://shanecooney11
 * [learncssgrid.com](https://learncssgrid.com/) was an excellent resource for learning CSS Grid.
 * The icons used across the website were from Font Awesome. [Font Awesome](https://fontawesome.com/)
 [Grammerly](https://www.grammarly.com/) was used for spelling corrections on all pages.
+* [Modern-CSS](https://www.modern-css.com/responsive-navbar-with-css-grid.html) was a great resource for learning how to implement a responsive navigation bar using CSS Grid.
 
 ### Media 
 * All media used was taken by myself.
